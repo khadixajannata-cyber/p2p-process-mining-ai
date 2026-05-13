@@ -1,14 +1,14 @@
-\# P2P Process Mining \& Predictive Analytics
+\*\*P2P Process Mining \& Predictive Analytics\*\*
 
 
 
-\## Project Overview
+\*\*Project Overview\*\*
 
 This repository contains an end-to-end Process Mining and Machine Learning pipeline applied to the BPI Challenge 2019 dataset (1.5M+ SAP ERP event logs). The objective is to identify process inefficiencies in a Procure-to-Pay (P2P) workflow and build a predictive model to flag potential delays.
 
 
 
-\## Methodology \& Tech Stack
+\*\*Methodology \& Tech Stack\*\*
 
 1\. \*\*Process Discovery (Python/pm4py)\*\*: Extracted and cleaned event logs to reconstruct the actual P2P process flow, isolating the core "happy path" from process deviations.
 
@@ -20,13 +20,13 @@ This repository contains an end-to-end Process Mining and Machine Learning pipel
 
 
 
-\## Dashboard Preview
+\*\*Dashboard Preview\*\*
 
 !\[Power BI Dashboard](dashboard\_view.png)
 
 
 
-\## Key Findings
+\*\*Key Findings\*\*
 
 \* \*\*Process Friction\*\*: The average order requires 13.5 steps to complete, compared to the 5-step ideal path, indicating significant rework.
 
