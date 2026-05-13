@@ -1,0 +1,13 @@
+# 忽略虚拟环境
+.venv/
+venv/
+env/
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.pyc
+
+# 忽略超大数据文件 (如果你的 CSV 超过 100MB，GitHub 是不让传的)
+# 如果 bpi_2019_sample.csv 只有十几MB，可以保留。如果很大，加上下面这行：
+*.xes
+*.csv
